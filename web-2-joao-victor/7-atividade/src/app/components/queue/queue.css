@@ -1,0 +1,45 @@
+* {
+    font-size: 10px;
+    font-family: 'Poppins';
+}
+
+@media only screen and (max-width: 768px) {
+    .queue {
+        margin-top: -40rem;
+        padding-top: 48.6rem;
+    }
+
+    .queue>a {
+        width: 88vw;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .queue {
+        margin-top: -6.7rem;
+        padding-top: 14.7rem;
+    }
+
+    .queue>a {
+        width: 64vw;
+    }
+}
+
+.queue {
+    display: flex; 
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: #E5CF94;
+    width: 100vw;
+}
+
+.queue>a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #5F3305;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+}
